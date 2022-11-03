@@ -58,7 +58,9 @@ if(!MyIni.KeyExists("DefaultVolume", "Audio"))
 **You can delete a key like so:**
 ```
 MyIni.DeleteKey("DefaultVolume", "Audio");
-``
+```
 **You can also delete a whole section (including all keys) like so:**
 
-`MyIni.DeleteSection("Web");`
+```
+MyIni.DeleteSection("Web");
+```
